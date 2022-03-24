@@ -5,10 +5,8 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <>
-      <header className="header">
-        <img src={logo} alt="cssr" />
-      </header>
+    <header className="header">
+      <img src={logo} alt="cssr" />
       <nav className="navbar">
         <ul className="navbar-lists">
           <li>
@@ -38,6 +36,6 @@ export const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </>
+    </header>
   );
 };
