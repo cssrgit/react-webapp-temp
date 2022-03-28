@@ -101,3 +101,31 @@ li {
 .btn:active {
   box-shadow: var(--shadowSupport);
 }
+
+.common-heading {
+  font-size: 4.8rem;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.common-heading::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: var(--helper);
+  border-radius: 50%;
+}
+
+.common-heading::after {
+  content: "";
+  position: absolute;
+  top: 118%;
+  left: 1rem;
+  height: 0.3rem;
+  width: 20rem;
+  background-color: var(--helper);
+}
