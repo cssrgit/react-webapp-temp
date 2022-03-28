@@ -1,6 +1,7 @@
 import React from "react";
 import "./bio.css";
 import bioImage from "../../images/bio-image.jpg";
+import { Link } from "react-router-dom";
 
 export const BioData = () => {
   return (
@@ -30,30 +31,30 @@ export const BioData = () => {
               <div className="bio-progress-bar bio-progress-1">
                 <span>90%</span>
               </div>
-              <div className="bio-stats">
-                <h3>CSS</h3>
-                <div className="bio-progress-bar bio-progress-2">
-                  <span>70%</span>
-                </div>
-                <div className="bio-stats">
-                  <h3>Javascript</h3>
-                  <div className="bio-progress-bar bio-progress-3">
-                    <span>70%</span>
-                  </div>
-                </div>
-                <div className="bio-stats">
-                  <h3>Mern</h3>
-                  <div className="bio-progress-bar bio-progress-4">
-                    <span>70%</span>
-                  </div>
-                </div>
+            </div>{" "}
+            <div className="bio-stats">
+              <h3>CSS</h3>
+              <div className="bio-progress-bar bio-progress-2">
+                <span>70%</span>
               </div>
             </div>
-            <div className="bio-data-btn">
-              <a href="#" className="btn">
-                About
-              </a>
+            <div className="bio-stats">
+              <h3>Javascript</h3>
+              <div className="bio-progress-bar bio-progress-3">
+                <span>70%</span>
+              </div>
             </div>
+            <div className="bio-stats">
+              <h3>Mern</h3>
+              <div className="bio-progress-bar bio-progress-4">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+          <div className="bio-data-btn">
+            <Link to="#" className="btn">
+              About
+            </Link>
           </div>
         </div>
       </div>
