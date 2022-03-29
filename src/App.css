@@ -74,11 +74,19 @@ li {
 
 .grid {
   display: grid;
-  gap: 9rem;
+  gap: 6rem;
 }
 
 .grid-two-column {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-column {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-column {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .btn {
