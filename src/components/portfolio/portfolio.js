@@ -47,7 +47,7 @@ export const Portfolio = () => {
           className={website ? "btn p-btn p-btn-active" : "btn p-btn"}
           data-btn-num="1"
           onClick={(e) => {
-            return setWebsite(!website), setFacebook(false), setYoutube(false);
+            return setWebsite(true), setFacebook(false), setYoutube(false);
           }}
         >
           Website
@@ -56,7 +56,7 @@ export const Portfolio = () => {
           className={youtube ? "btn p-btn p-btn-active" : "btn p-btn"}
           data-btn-num="2"
           onClick={(e) => {
-            return setWebsite(false), setFacebook(false), setYoutube(!youtube);
+            return setWebsite(false), setFacebook(false), setYoutube(true);
           }}
         >
           Youtube
@@ -65,7 +65,7 @@ export const Portfolio = () => {
           className={facebook ? "btn p-btn p-btn-active" : "btn p-btn"}
           data-btn-num="3"
           onClick={(e) => {
-            return setWebsite(false), setFacebook(!facebook), setYoutube(false);
+            return setWebsite(false), setFacebook(true), setYoutube(false);
           }}
         >
           Facbook
