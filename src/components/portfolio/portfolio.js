@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
   const [youtube, setYoutube] = useState(true);
-  const [website, setWebsite] = useState(false);
-  const [facebook, setFacebook] = useState(false);
+  const [website, setWebsite] = useState(true);
+  const [facebook, setFacebook] = useState(true);
 
   const data = [
     { images: image2, val: "project 1", link: "#", ref: youtube },
