@@ -16,9 +16,9 @@ export const Portfolio = () => {
   const [facebook, setFacebook] = useState(false);
 
   const data = [
-    { images: image1, val: "project 1", link: "#", ref: youtube },
-    { images: image7, val: "project 7", link: "#", ref: youtube },
-    { images: image8, val: "project 8", link: "#", ref: youtube },
+    { images: image2, val: "project 1", link: "#", ref: youtube },
+    { images: image2, val: "project 7", link: "#", ref: youtube },
+    { images: image2, val: "project 8", link: "#", ref: youtube },
     { images: image2, val: "project 2", link: "#", ref: website },
     { images: image3, val: "project 3", link: "#", ref: website },
     { images: image4, val: "project 4", link: "#", ref: facebook },
@@ -72,10 +72,9 @@ export const Portfolio = () => {
         </div>
       </div>
       <div className="container grid grid-three-column portfolio-images">
-        {data
-          .filter((item) => item.ref)
-          .map((item, index) => {
-            return (
+        {data.map((item, index) => {
+          return (
+            item.ref && (
               <div className="img-overlay p-btn--1" key={index}>
                 <img src={item.images} alt={item.val} />
                 <div className="overlay">
@@ -84,8 +83,9 @@ export const Portfolio = () => {
                   </Link>
                 </div>
               </div>
-            );
-          })}
+            )
+          );
+        })}
         {/* <div className="img-overlay p-btn--1">
           <img src={image2} alt="portfolio" />
           <div className="overlay">
