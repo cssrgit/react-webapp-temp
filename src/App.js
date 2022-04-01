@@ -4,6 +4,7 @@ import { Counter } from "./components/counter/counter";
 import { HeroComponent } from "./components/hero/hero";
 import { Portfolio } from "./components/portfolio/portfolio";
 import { RoutesComponent } from "./components/routes/routes";
+import { Service } from "./components/service/service";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BioData />
       <Portfolio />
       <Counter />
+      <Service />
     </div>
   );
 }
