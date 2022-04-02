@@ -5,6 +5,7 @@ import { HeroComponent } from "./components/hero/hero";
 import { Portfolio } from "./components/portfolio/portfolio";
 import { RoutesComponent } from "./components/routes/routes";
 import { Service } from "./components/service/service";
+import Testimonial from "./components/testimonial/testimonial";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <Counter />
       <Service />
+      <Testimonial />
     </div>
   );
 }
