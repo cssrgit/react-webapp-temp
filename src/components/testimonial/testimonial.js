@@ -22,8 +22,8 @@ export default function Testimonial() {
 
         <Swiper
           slidesPerView={2}
-          spaceBetween={50}
-          autoplay={{ delay: 2000 }}
+          spaceBetween={30}
+          autoplay={true}
           pagination={{
             clickable: true,
           }}
@@ -31,31 +31,166 @@ export default function Testimonial() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image1} alt="images" />
+            <div className="swiper-client-msg">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt quia dignissimos doloribus labore veniam soluta,
+                officiis,
+              </p>
+            </div>
+            <div className="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src={image1} alt="client" className="client-img" />
+              </figure>
+              <div className="client-data-details">
+                <p>Babaer Azam</p>
+                <p>Enterpreneur</p>
+              </div>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
