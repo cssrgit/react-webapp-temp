@@ -2,6 +2,7 @@ import "./App.css";
 import { BioData } from "./components/bio/bioData";
 import { Counter } from "./components/counter/counter";
 import { HeroComponent } from "./components/hero/hero";
+import { HireMe } from "./components/hireMe/hireMe";
 import { Portfolio } from "./components/portfolio/portfolio";
 import { RoutesComponent } from "./components/routes/routes";
 import { Service } from "./components/service/service";
@@ -17,6 +18,7 @@ function App() {
       <Counter />
       <Service />
       <Testimonial />
+      <HireMe />
     </div>
   );
 }
