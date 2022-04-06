@@ -1,0 +1,30 @@
+.section-contact-main{
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    transition: all .3s linear;
+}
+
+.section-contact-main .grid{
+    gap: 3.2rem;
+}
+
+.section-contact-main form{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.section-contact-main input,.section-contact-main textarea{
+    padding: 1.5rem 2rem;
+    border: .1rem solid #c9c9c9;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family: "work sans";
+    width: 100%;
+}
+
+.section-contact-main input[type="submit"]{
+    width: 30%;
+    border: none;
+}
