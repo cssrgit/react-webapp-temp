@@ -22,7 +22,14 @@
     font-size: 1.6rem;
     font-family: "work sans";
     width: 100%;
+    outline: none;
 }
+
+.section-contact-main input:focus,.section-contact-main textarea:focus{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+}
+
 
 .section-contact-main input[type="submit"]{
     width: 30%;
