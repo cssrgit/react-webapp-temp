@@ -2,6 +2,7 @@ import "./App.css";
 import { BioData } from "./components/bio/bioData";
 import { Contact } from "./components/contact/contact";
 import { Counter } from "./components/counter/counter";
+import { Footer } from "./components/footer/footer";
 import { HeroComponent } from "./components/hero/hero";
 import { HireMe } from "./components/hireMe/hireMe";
 import { Portfolio } from "./components/portfolio/portfolio";
@@ -21,6 +22,7 @@ function App() {
       <Testimonial />
       <HireMe />
       <Contact />
+      <Footer />
     </div>
   );
 }
