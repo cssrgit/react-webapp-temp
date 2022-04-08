@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./footer.css";
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="section section-footer">
       <div className="container grid grid-four-column">
         <div className="f-about">
           <h3>About</h3>
@@ -82,7 +82,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="f-services">
+        <div className="f-address">
           <h3>Have a questions</h3>
           <address>
             <div>
@@ -115,13 +115,13 @@ export const Footer = () => {
       <div className="container">
         <div className="f-social-icons">
           <Link to="/" target="_blank">
-            <ion-icon className="icon" name="logo-instagram"></ion-icon>
+            <ion-icon className="icons" name="logo-instagram"></ion-icon>
           </Link>
           <Link to="/" target="_blank">
-            <ion-icon className="icon" name="logo-facebook"></ion-icon>
+            <ion-icon className="icons" name="logo-facebook"></ion-icon>
           </Link>
           <Link to="/" target="_blank">
-            <ion-icon className="icon" name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-youtube" className="icons"></ion-icon>
           </Link>
         </div>
         <div className="f-credit">
