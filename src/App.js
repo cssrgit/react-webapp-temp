@@ -7,6 +7,7 @@ import { HeroComponent } from "./components/hero/hero";
 import { HireMe } from "./components/hireMe/hireMe";
 import { Portfolio } from "./components/portfolio/portfolio";
 import { RoutesComponent } from "./components/routes/routes";
+import { ScrollTop } from "./components/scrollTop/scrollTop";
 import { Service } from "./components/service/service";
 import Testimonial from "./components/testimonial/testimonial";
 
@@ -23,6 +24,7 @@ function App() {
       <HireMe />
       <Contact />
       <Footer />
+      <ScrollTop />
     </div>
   );
 }
