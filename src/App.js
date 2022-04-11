@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <RoutesComponent />
-      <HeroComponent />
+      {/* <HeroComponent />
       <BioData />
       <Portfolio />
       <Counter />
@@ -24,7 +24,7 @@ function App() {
       <HireMe />
       <Contact />
       <Footer />
-      <ScrollTop />
+      <ScrollTop /> */}
     </div>
   );
 }

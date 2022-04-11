@@ -25,12 +25,12 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className="navbar-link portfolio-link">
+            <a href="#portfolio" className="navbar-link portfolio-link">
               Portfolio
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="/contact" className="navbar-link contact-link">
+            <Link to="contact" className="navbar-link contact-link">
               Contact
             </Link>
           </li>
